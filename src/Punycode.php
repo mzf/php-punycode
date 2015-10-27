@@ -64,6 +64,16 @@ class Punycode
     {
         $this->encoding = $encoding;
     }
+    
+    static function enc($input)
+    {
+        return (new static)->encode($input);
+    }
+    
+    static function dec($input)
+    {
+        return (new static)->decode($input);
+    }
 
     /**
      * Encode a domain to its Punycode version
