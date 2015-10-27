@@ -1,8 +1,8 @@
 {
-	"name": "true/punycode",
+	"name": "web777/punycode",
 	"description": "A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)",
 	"keywords": ["IDNA", "punycode"],
-	"homepage": "https://github.com/true/php-punycode",
+	"homepage": "https://github.com/web777/php-punycode",
 	"license": "MIT",
 	"authors": [
 		{
